@@ -1,0 +1,22 @@
+.place {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 80px;    
+}
+
+.place:last-of-type {
+    padding-bottom: 0px;
+}
+
+@media screen and (max-width: 930px) {
+    .place {
+        padding-bottom: 73px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        padding-bottom: 49px;
+    }
+}
+
