@@ -6,10 +6,6 @@
     transition: opacity 1s ease;
 }
 
-.header__lang-link:last-of-type {
-    text-decoration: none;
-}
-
 .header__lang-link:hover {
     opacity: 0.8;
   }

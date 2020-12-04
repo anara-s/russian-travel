@@ -2,7 +2,6 @@
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
-    width: 484px;
     margin: 0 0 48px 0;
     transition: opacity 1s ease;
 }
@@ -10,21 +9,3 @@
 .place__link:hover {
     opacity: 0.8;
   }
-
-@media screen and (max-width: 1024px) {
-    .place__link {
-        width: 456px;
-    }
-}
-
-@media screen and (max-width: 930px) {
-    .place__link {
-        width: 352px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__link {
-        display: none;
-    }
-}

@@ -1,6 +1,6 @@
 .cover {
-    width: 1184px;
-    height: 740px;
+    max-width: 1184px;
+    min-height: 740px;
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
     background-position: center;
@@ -9,11 +9,28 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    text-decoration: none;
+}
+
+.cover::before {
+    content: '';
+    background: #2A2C2F;
+    opacity: 0.3;
+    transition: opacity 1s ease;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.cover:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 1184px) {
     .cover {
-        width: 100%;
-        height: 62.5vw;
+        max-width: 100%;
+        min-height: 62.5vw;
     }    
 }
