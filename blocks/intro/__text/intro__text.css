@@ -6,11 +6,6 @@
     max-width: 690px;    
 }
 
-@media screen and (max-width: 1024px) {
-    .intro__text {
-        max-width: 690px;
-    } 
-}
 
 @media screen and (max-width: 1000px) {
     .intro__text {
@@ -18,7 +13,13 @@
     } 
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 740px) {
+    .intro__text {
+        max-width: calc(100% - 6%);
+    } 
+}
+
+@media screen and (max-width: 505px) {
     .intro__text {
         max-width: 288px;
     } 

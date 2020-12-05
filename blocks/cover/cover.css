@@ -10,6 +10,7 @@
     align-items: center;
     position: relative;
     text-decoration: none;
+    border: 1px red;
 }
 
 .cover::before {
@@ -24,11 +25,11 @@
     bottom: 0;
 }
 
-.cover:hover {
+.cover:hover::before {
     opacity: 0.8;
 }
 
-@media screen and (max-width: 1184px) {
+@media screen and (max-width: 1200px) {
     .cover {
         max-width: 100%;
         min-height: 62.5vw;

@@ -4,6 +4,7 @@
     color: #FFFFFF;
     margin-left: 18px;
     transition: opacity 1s ease;
+    text-decoration: none;
 }
 
 .header__lang-link:hover {
